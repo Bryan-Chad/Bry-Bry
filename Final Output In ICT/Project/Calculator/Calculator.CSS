@@ -1,0 +1,62 @@
+.CalcuDiv
+{
+    width: 400px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(49, 51, 48);
+    padding: 10px;
+}
+.CalcuX
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.CalcuBox
+{
+    width: 92px;
+    height: 95px;
+    text-align: center;
+    font-size: 50px;
+    border: 0px;
+    border-radius: 20px;
+}
+#Input
+{
+    width: 395px;
+    height: 90px;
+    border-radius: 20px;
+    font-size: 50px;
+}
+input{
+    transition: all 1s;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+input:hover{
+    transition: all 1s;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-color: cyan;
+}
+button{
+    transition: all 0.15s;
+}
+
+#boxplus, #boxmultiply, #boxminus, #boxdivide, #boxC, #boxequal{
+    background-color: rgb(255, 136, 0);
+    color: white;
+}
+#boxplus:hover, #boxmultiply:hover, #boxminus:hover, #boxdivide:hover,#boxC:hover, #boxequal:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 136, 0);
+}
+#boxequal{
+    position: relative;
+    left: 305px;
+}
